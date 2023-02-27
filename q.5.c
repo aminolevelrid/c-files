@@ -1,13 +1,10 @@
 
 #include <stdio.h>
+
 int main()
 {
-    float a,b,area;
-    printf("enter the length of the rectangle :");
-    scanf("%f",&a);
-    printf("enter the width of a rectangle : ");
-    scanf("%f",&b);
-    area=a*b;
-    printf("arae of  rectangle : %f",area);
+    char ch;
+    scanf("%c",&ch);
+    (ch>='A' && ch<='Z')|| (ch>='a' && ch<='z')?printf("this is an alpabet %c",ch):printf("this is not an alpabet %C",ch);
     return 0;
 }
