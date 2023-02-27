@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-int main() {
-  int length,breadth,perimeter;
-  printf("enter the length : \n");
-  scanf("%d",&length);
-  printf("enter the breadth : \n");
-  scanf("%d",&breadth);
-  perimeter=2*(length+breadth);
-  printf("%d",perimeter);
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    (a%4==0)&& (a%100!=0)|| (a%400==0)?printf("this is a leep year.%d",a):printf("this is not a leep year.%d",a);
     return 0;
 }
